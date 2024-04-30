@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font: size 62.5%;
+}
+
+#hero-simple {
+  min-height: 600px;
+  background-image: url("/assets/img-kopi/hero-bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5.8rem;
+}
+
+p {
+  color: white;
+  font-size: 1.8rem;
+  width: 100%;
+  max-width: 560px;
+  text-align: center;
+}
+
+#hero-notsimple {
+  min-height: 768px;
+  background-image: url("/assets/img-kopi/hero-bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5.8rem;
+}
